@@ -28,9 +28,12 @@
 			<li><a href="records.html">Records</a></li>
 			<li><a href="Statistics.html">Statistics</a></li>
 		</ul>
-		<div class="slideshow">Placeholder for Picture</div>
-		
-
+		<h3 class="page-heading">School Records</h3>
+			<div><a href="Boys.html">Boys</a></div>
+			<div><a href="Girls.html">Girls</a></div>
+			<div><a href="Predictions.html">Predictions</a></div>
+			
+			
 
 
 

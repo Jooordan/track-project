@@ -28,8 +28,30 @@
 			<li><a href="records.html">Records</a></li>
 			<li><a href="Statistics.html">Statistics</a></li>
 		</ul>
-		<div class="slideshow">Placeholder for Picture</div>
-		
+		<h3 class="page-heading">School Records</h3>
+		<Ul>
+			<li>
+				<h4>Sydney</h4>
+				<p class="event">300m Dash</p>
+				<p class="time">40.56</p>
+				<p class="date">2/17/14</p>
+			</li>
+			<li>
+				<h4>DeShaun</h4>
+				<p class="event">300m Dash</p>
+				<p class="time">35.9</p>
+				<p class="date">2/17/14</p>
+			</li>
+			<li>
+				<h4>Jordan, Esmeralda, Kenlee, Maya</h4>
+				<p class="event">4x400m relay</p>
+				<p class="time">4:02.55</p>
+				<p class="date">2/22/14</p>
+			</li>
+		</ul>
+
+				
+
 
 
 
