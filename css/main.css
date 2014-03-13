@@ -97,9 +97,33 @@ textarea {
    Author's custom styles
    ========================================================================== */ 
 
-
-
-
+.heading { 
+    text-align: center;   
+}
+.nav {
+    width:100%;
+}
+.nav > li {
+    display: block;
+    list-style-type: none; 
+    float: left;
+    width: 16.6666667%;
+}
+.slideshow > img {
+    width: 48%;
+    float: left;
+}
+.slideshow > img:first-child {
+    margin-right: 4% 
+}
+.heading a, 
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+body {
+    background: #CAB1D6;
+}
 
 
 
