@@ -107,14 +107,7 @@ textarea {
     display: block;
     list-style-type: none; 
     float: left;
-    width: 16.6666667%;
-}
-.slideshow > img {
-    width: 48%;
-    float: left;
-}
-.slideshow > img:first-child {
-    margin-right: 4% 
+    width: 16.6666667%; 
 }
 .heading a, 
 .nav a {
@@ -124,7 +117,10 @@ textarea {
 body {
     background: #C9C3C3;
 }
-
+.slideshow {
+    width:90%;
+    margin: 0 auto;
+}
 
 
 
