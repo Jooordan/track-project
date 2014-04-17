@@ -1,8 +1,17 @@
 $(function(){
 	if ($.fn.slidesjs){
 	 $(".slideshow").slidesjs({
-        width: 50,
-        height: 25
+        width: 10,
+        height: 5,
+        pagination: {
+     		active: false 
+  		},
+        callback: {
+      		loaded: function(number) {
+      		$(".slidesjs-previous").text("<");
+$(".slidesjs-next").text(">");
+      		}
+  		}
       });
 	}
 });	

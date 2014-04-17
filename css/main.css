@@ -118,8 +118,44 @@ body {
     background: #C9C3C3;
 }
 .slideshow {
-    width:90%;
+    width:50%;
     margin: 0 auto;
+    position: relative;
+}
+.slideshow a {
+    text-decoration: none;
+}
+.slidesjs-previous {
+    color: black;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 93px;
+    left:0;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    background-color: white;
+    opacity: 0.5;
+    z-index: 10;
+}
+
+.slidesjs-next  {
+    color: black;
+    position:absolute;
+    height: 50px;
+    width: 50px;
+    top: 93px;
+    right: 0;
+    display:block;
+    text-align: center;
+    line-height: 50px;
+    background-color: white;
+    font-size: 25px;
+    z-index: 10;
+    opacity: 0.5;
+}
 }
 
 
@@ -150,7 +186,7 @@ body {
     content: "";
     display: block;
     width: 0;
-    height: 150%;
+    height: 100%;
 }
 
 /*
