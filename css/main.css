@@ -117,6 +117,13 @@ textarea {
 body {
     background: #C9C3C3;
 }
+.Schoolrecords {
+    height: 50px;
+    width: 50px;
+    display: block;
+    float: left;
+    text-align: center;
+}
 .slideshow {
     width:50%;
     margin: 0 auto;

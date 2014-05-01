@@ -30,7 +30,7 @@
 		<h3 class="page-heading">School Records</h3>
 			<div><a href="Predictions.html">Predictions</a></div>
             <h4>55m Dash</h4>
-                 <input id="FityfiveFilter" type="text" placeholder="filter by.."></input>
+                 <input id="fiftyfiveFilter" type="text" placeholder="filter by.."></input>
             <div id="fiftyfive"></div>
 
 
@@ -57,14 +57,36 @@
                     </tr>
                 {{/rows}}
             </table>
+            <h4>300m Dash</h4>
+                 <input id="threehundredFilter" type="text" placeholder="filter by.."></input>
+            <div id="threehundred"></div>
+        </script>
+
+
+        <script id="threehundred" type="text/html">
+            <table>
+                <tr>
+                    <th class="tHeader">Runner</th>
+                    <th class="tHeader">12/28/2013</th>
+                    <th class="tHeader">1/11/2014</th>
+                    <th class="tHeader">1/11/2014</th>
+                    <th class="tHeader">1/26/2014</th>
+                    <th class="tHeader">2/17/2014</th>
+                    <th class="tHeader">2/22/2014</th>
+                </tr>
+                {{#rows}}
+                    <tr>
+                        <td>{{runner}}</td>
+                        <td>{{_cokwr}}</td>
+                        <td>{{_cpzh4}}</td>
+                        <td>{{_cre1l}}</td>
+                        <td>{{_chk2m}}</td>
+                        <td>{{_ciyn3}}</td>
+                        <td>{{_ckd7g}}</td>
+                    </tr>
+                {{/rows}}
+            </table>
          </script>
-
-
-
-
-
-
-
 
         <script src="js/vendor/jquery-1.10.2.min.js"></script>
         <script src="js/vendor/tabletop1.3.3.js"></script>
