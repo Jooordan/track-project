@@ -14,4 +14,13 @@ $(".slidesjs-next").text(">");
   		}
       });
 	}
+  if (typeof Tabletop !== "undefined"){
+    var key= "0AoLw7h0UrV0cdFl2aHR5NUVIRXFvLTRDZ0trQTFyUWc" 
+    Tabletop.init( { key: key, callback: showinfo, parseNumbers: true } );
+    function showinfo(data) {
+      console.log(data)
+    }
+  }
+ 
+
 });	
