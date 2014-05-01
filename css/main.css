@@ -117,12 +117,15 @@ textarea {
 body {
     background: #C9C3C3;
 }
-.Schoolrecords {
-    height: 50px;
-    width: 50px;
+.Schoolrecords li {
+    height: 300px;
+    width: 33%;
+    background: transparent url(../img/Recordcircle.png) no-repeat scroll center center;
     display: block;
     float: left;
     text-align: center;
+    padding-top: 105px;
+
 }
 .slideshow {
     width:50%;
