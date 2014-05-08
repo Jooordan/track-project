@@ -128,6 +128,16 @@ td, th{
     text-align: right;
 }
 
+dt {
+    font-weight: bold;
+    clear: left;
+    width: 250px;
+}
+dd, dt {
+    float: left;
+
+
+}
 
 .Schoolrecords li {
     height: 300px;
